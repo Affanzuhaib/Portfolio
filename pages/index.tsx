@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 import Head from "next/head";
 
 
@@ -11,9 +12,9 @@ export default function Home() {
       <link rel="stylesheet" href="/favicon.ico" />
     </Head>
 
-    <main >
-      <div className="font-bodyFont">New Portfolio Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit perferendis laborum deserunt nisi quod natus dolor! Iste maiores est modi recusandae provident. Nobis dolorum at totam aliquam molestias consectetur odit.
-      </div>
+    <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight
+    overflow-x-hidden overflow-y-scroll ">
+      <Navbar/>
     </main>
     </>
   )
