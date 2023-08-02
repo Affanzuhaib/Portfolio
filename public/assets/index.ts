@@ -8,5 +8,6 @@ import listHostel from "./images/ListHostel.png";
 import rooms from "./images/rooms.png";
 import searchPage from "./images/SearchPage.png";
 import logo from "./images/logo.png"
+import profileImg from "./images/ProfileImg.jpg"
 
-export {adminHostel,adminRoom,displayRoom,homePage,hostel,hostelPage,listHostel,rooms,searchPage , logo};
+export {adminHostel,adminRoom,displayRoom,homePage,hostel,hostelPage,listHostel,rooms,searchPage , logo, profileImg};

@@ -1,14 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     maxWidth:{
       container: "1440px",
-      contentcontainer: "1140px",
+      contentContainer: "1140px",
       containerSmall: "1024px",
       containerxs: "768px",
     },
@@ -20,12 +20,12 @@ module.exports = {
         md: "667px",
         mdl: "768px",
         lg: "960px",
-        lgl: "1024",
+        lgl: "1024px",
         xl: "1280px",
       },
       fontFamily: {
-        bodyFont: ["Inter","sans-serif"],
-        titleFont: ["Montserrat","sans-serif"],
+        bodyFont: ["Montserrat","sans-serif"],
+        titleFont: ["Inter","sans-serif"],
       },
       boxShadow:{
         navbarShadow: "0 10px 30px -10px rgba(2,12,27,0.7)",
