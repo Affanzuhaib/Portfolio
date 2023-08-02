@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Banner from "@/components/Banner";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -27,11 +28,11 @@ export default function Home() {
          className="hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0 ">
           <LeftSide/>
         </motion.div>
-        <div className="h-[88vh] w-4/5 mx-auto p-4 ">
+        <div className="h-[88vh] w-full mx-auto p-4 ">
           <Banner/>
           <About/>
           <Experience/>
-          {/* Experience */}
+          <Projects />
           {/* Projects */}
           {/* Archive */}
           {/* Contact */}
