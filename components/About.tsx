@@ -14,7 +14,7 @@ const About = () => {
         <div className="flex flex-col lgl:flex-row gap-16">
             <div className="w-[580px] lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4 ">
                 <p>
-                    Hello! My name is Noor Mohammed and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes - turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+                    Hello! My name is Mohammed Affan Zuhaibuddin and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes - turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
                 </p>
                 <p>
                     Fast-forward to today, and I had the privilege of working at an advertising agency, a start-up,{" "}
