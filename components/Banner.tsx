@@ -28,7 +28,7 @@ const Banner = () => {
             transition={{duration:0.5, delay:0.8}}
             className="text-base md:max-w-[630px] text-textDark font-medium "
         >
-            I am a web developer with the keen knowledge of React and Angular. I have a strong foundation in front-end & back-end development and am skilled in creating user-friendly and responsive web applications using React and its ecosystem.{" "}
+            You are talking with a software developer which has both the knowledge and experience of various technologies with expertise in Javascript, React and Nextjs. I have a strong foundation in front-end, back-end development and Cloud architecture. I am skilled in creating user-friendly and responsive web applications using React, Nextjs and its ecosystem.{" "}
             <a href="https://www.linkedin.com/in/affan-zuhaib-73b389209/" target="_blank">
                 <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
                     Learn More
@@ -41,7 +41,9 @@ const Banner = () => {
             animate={{y:0, opacity:1}}
             transition={{duration:0.5, delay:0.9}}
             className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300 ">
-            Check out my project!
+            <a href="https://github.com/Affanzuhaib" target="_blank">
+                Check out my work!
+            </a>
         </motion.button>
     </section>
   )

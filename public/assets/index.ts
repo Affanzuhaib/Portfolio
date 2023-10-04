@@ -1,13 +1,7 @@
-import adminHostel from "./images/AdminHostel.png";
-import adminRoom from "./images/adminRoom.png";
-import displayRoom from "./images/DisplayRoom.png";
 import homePage from "./images/HomePage.png";
-import hostel from "./images/hostel.png";
-import hostelPage from "./images/HostelPage.png";
-import listHostel from "./images/ListHostel.png";
-import rooms from "./images/rooms.png";
-import searchPage from "./images/SearchPage.png";
 import logo from "./images/logo.png"
-import profileImg from "./images/ProfileImg.jpg"
+import profileImg from "./images/new_photo2.jpg"
+import gameplay from "./images/Gameplay2.png"
+import activity from "./images/Activityphoto.png"
 
-export {adminHostel,adminRoom,displayRoom,homePage,hostel,hostelPage,listHostel,rooms,searchPage , logo, profileImg};
+export {homePage, logo, profileImg, gameplay, activity};

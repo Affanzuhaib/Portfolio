@@ -10,30 +10,30 @@ const Flipr = () => {
         className="w-full"
     >
         <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-            Engineer
+            Full Stack Developer
             <span className="text-textGreen tracking-wide">@Flipr Innovation Labs</span>
         </h3>
         <p className="text-sm mt-1 font-medium text-textDark">
-            Jan 2023 - Present
+            May 2023 - Jun 2023
         </p>
         <ul className="mt-6 flex flex-col gap-3">
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textGreen mt-1">
                     <TiArrowForward/>
                 </span>
-                Write modern, performant, maintainable code for a diverse array of client and internal projects
+                Written contemporary, effective code that is easy to maintain for a variety of customer and internal projects.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textGreen mt-1">
                     <TiArrowForward/>
                 </span>
-                Work with a variety of different languages, platforms, frameworks and content management systems such as JavaScript, TypeScript, React, Docker, AWS...etc
+                Effectively use a variety of platforms and frameworks, such as React, Node.js, Docker, AWS, and others, to increase the versatility and adaptability of a project.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textGreen mt-1">
                     <TiArrowForward/>
                 </span>
-                Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis.
+                Maintaining regular communication to assure project alignment and success, I successfully collaborated with cross-functional teams made up of engineers, designers, producers, and clients.
             </li>
         </ul>
     </motion.div>

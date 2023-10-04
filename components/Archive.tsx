@@ -1,9 +1,7 @@
 import React,{useState} from 'react'
 import ArchiveCard from './ArchiveCard'
-import { motion } from 'framer-motion';
 
 const Archive = () => {
-    const [ShowMore,setShowMore]=useState(false);
   return (
     <div className='max-w-contentContainer mx-auto px-4 py-24'>
         <div className='w-full flex flex-col items-center'>
@@ -16,111 +14,19 @@ const Archive = () => {
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10'>
             <ArchiveCard 
-            title="Educare English Learning Academy" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione quod veritatis reprehenderit adipisci distinctio accusamus." listItem={["Reactjs","TailwindCSS","getform.io"]}
-            link="https://github.com/Affanzuhaib"
+            title="Netflix Clone" des="Developed a full-featured Netflix clone as a personal project, demonstrating proficiency in web development, design, and user interface/user experience (UI/UX) design." 
+            listItem={["Reactjs","TailwindCSS","Nodejs"]}
+            link="https://github.com/Affanzuhaib/Netflix_Clone"
             />
             <ArchiveCard 
-            title="Educare English Learning Academy" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione quod veritatis reprehenderit adipisci distinctio accusamus." listItem={["Reactjs","TailwindCSS","getform.io"]}
-            link="https://github.com/Affanzuhaib"
+            title="Image Segmentation for auto mobiles" des="This project uses OpenCV for video-based vehicle detection and counting in traffic control, improving accuracy through background subtraction." 
+            listItem={["OpenCV","Jupyter","COCO dataset"]}
+            link="https://github.com/Affanzuhaib/Image_Segmentation_for_auto_mobiles"
             />
             <ArchiveCard 
-            title="Educare English Learning Academy" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione quod veritatis reprehenderit adipisci distinctio accusamus." listItem={["Reactjs","TailwindCSS","getform.io"]}
-            link="https://github.com/Affanzuhaib"
+            title="Placement ERP System" des="This project facilitates swift and effective campus selections, benefiting both graduating students and recruiters by expediting the placement process." listItem={["Django","SQL lite3","getform.io"]}
+            link="https://github.com/Affanzuhaib/Placement-ERP-System"
             />
-            <ArchiveCard 
-            title="Educare English Learning Academy" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione quod veritatis reprehenderit adipisci distinctio accusamus." listItem={["Reactjs","TailwindCSS","getform.io"]}
-            link="https://github.com/Affanzuhaib"
-            />
-            <ArchiveCard 
-            title="Educare English Learning Academy" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione quod veritatis reprehenderit adipisci distinctio accusamus." listItem={["Reactjs","TailwindCSS","getform.io"]}
-            link="https://github.com/Affanzuhaib"
-            />
-            <ArchiveCard 
-            title="Educare English Learning Academy" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione quod veritatis reprehenderit adipisci distinctio accusamus." listItem={["Reactjs","TailwindCSS","getform.io"]}
-            link="https://github.com/Affanzuhaib"
-            />
-
-            {ShowMore &&(
-                    <>
-                            <motion.div
-                            initial={{opacity:0}}
-                            whileInView={{opacity:1}}
-                            transition={{delay:0.1}} 
-                            >
-                            <ArchiveCard 
-                            title="Educare English Learning Academy" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione quod veritatis reprehenderit adipisci distinctio accusamus." listItem={["Reactjs","TailwindCSS","getform.io"]}
-                            link="https://github.com/Affanzuhaib"
-                            />
-                            </motion.div>
-                            <motion.div
-                            initial={{opacity:0}}
-                            whileInView={{opacity:1}}
-                            transition={{delay:0.2}} 
-                            >
-                            <ArchiveCard 
-                            title="Educare English Learning Academy" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione quod veritatis reprehenderit adipisci distinctio accusamus." listItem={["Reactjs","TailwindCSS","getform.io"]}
-                            link="https://github.com/Affanzuhaib"
-                            />
-                            </motion.div>
-                            <motion.div
-                            initial={{opacity:0}}
-                            whileInView={{opacity:1}}
-                            transition={{delay:0.3}} 
-                            >
-                            <ArchiveCard 
-                            title="Educare English Learning Academy" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione quod veritatis reprehenderit adipisci distinctio accusamus." listItem={["Reactjs","TailwindCSS","getform.io"]}
-                            link="https://github.com/Affanzuhaib"
-                            />
-                            </motion.div>
-                            <motion.div
-                            initial={{opacity:0}}
-                            whileInView={{opacity:1}}
-                            transition={{delay:0.4}} 
-                            >
-                            <ArchiveCard 
-                            title="Educare English Learning Academy" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione quod veritatis reprehenderit adipisci distinctio accusamus." listItem={["Reactjs","TailwindCSS","getform.io"]}
-                            link="https://github.com/Affanzuhaib"
-                            />
-                            </motion.div>
-                            <motion.div
-                            initial={{opacity:0}}
-                            whileInView={{opacity:1}}
-                            transition={{delay:0.5}} 
-                            >
-                            <ArchiveCard 
-                            title="Educare English Learning Academy" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione quod veritatis reprehenderit adipisci distinctio accusamus." listItem={["Reactjs","TailwindCSS","getform.io"]}
-                            link="https://github.com/Affanzuhaib"
-                            />
-                            </motion.div>
-                            <motion.div
-                            initial={{opacity:0}}
-                            whileInView={{opacity:1}}
-                            transition={{delay:0.6}} 
-                            >
-                            <ArchiveCard 
-                            title="Educare English Learning Academy" des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ratione quod veritatis reprehenderit adipisci distinctio accusamus." listItem={["Reactjs","TailwindCSS","getform.io"]}
-                            link="https://github.com/Affanzuhaib"
-                            />
-                            </motion.div>
-                    </>
-                )
-            }
-        </div>
-        <div className='mt-12 flex items-center justify-center'>
-            {
-                ShowMore ? <button 
-                onClick={()=> setShowMore(false)} 
-                className='w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300 '
-                >
-                    Show Less
-                </button> : 
-                <button 
-                    onClick={()=> setShowMore(true)} 
-                    className='w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300 '
-                    >
-                    Show More
-                </button>
-            }
         </div>
     </div>
   )

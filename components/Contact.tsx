@@ -9,11 +9,11 @@ const Contact = () => {
       </p>
       <h2 className='font-titleFont text-5xl font-semibold'>Get In Touch</h2>
       <p className='max-w-[600px] text-center text-textDark '>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum assumenda dolores unde nihil optio eius ab beatae debitis et maxime, cupiditate doloremque impedit vel omnis illo libero voluptatum nisi? Vel.
+      "The future belongs to those who learn more skills and combine them in creative ways." – Robert Greene
       </p>
-        <a href="mailto:affanzuhaibuddin@gmail.com">
+        <a href="mailto:mohammed.affan.1024@gmail.com">
           <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
-            Say Hello
+            Say Hello!
           </button>
         </a>
     </section>

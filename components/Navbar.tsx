@@ -72,7 +72,6 @@ const Navbar = () => {
                         animate={{y:0 , opacity:1}} 
                         transition={{duration:0.1, delay: 0.1}}
                         >
-                            <span className='text-textGreen'>01.</span>
                             About
                         </motion.li>
                     </Link>
@@ -87,7 +86,6 @@ const Navbar = () => {
                         animate={{y:0 , opacity:1}} 
                         transition={{duration:0.1, delay: 0.2}}
                         >
-                            <span className='text-textGreen'>02.</span>
                             Experience
                         </motion.li>
                     </Link>
@@ -102,7 +100,6 @@ const Navbar = () => {
                         animate={{y:0 , opacity:1}} 
                         transition={{duration:0.1, delay: 0.3}}
                         >
-                            <span className='text-textGreen'>03.</span>
                             Project
                         </motion.li>
                     </Link>  
@@ -117,7 +114,6 @@ const Navbar = () => {
                         animate={{y:0 , opacity:1}} 
                         transition={{duration:0.1, delay: 0.4}}
                         >
-                            <span className='text-textGreen'>04.</span>
                             Contact
                         </motion.li>
                     </Link>                  
@@ -192,7 +188,6 @@ const Navbar = () => {
                                             ease: "easeIn",
                                         }}
                                         >
-                                            <span className='text-textGreen'>01.</span>
                                             About
                                         </motion.li>
                                     </Link>
@@ -211,7 +206,6 @@ const Navbar = () => {
                                             ease: "easeIn",
                                         }}
                                         >
-                                            <span className='text-textGreen'>02.</span>
                                             Experience
                                         </motion.li>
                                     </Link>
@@ -230,7 +224,6 @@ const Navbar = () => {
                                             ease: "easeIn",
                                         }}
                                         >
-                                            <span className='text-textGreen'>03.</span>
                                             Project
                                         </motion.li>
                                     </Link>  
@@ -249,7 +242,6 @@ const Navbar = () => {
                                             ease: "easeIn",
                                         }}
                                         >
-                                            <span className='text-textGreen'>04.</span>
                                             Contact
                                         </motion.li>
                                     </Link>                  
@@ -314,9 +306,9 @@ const Navbar = () => {
                             transition={{ delay:1.2, ease: "easeIn"}}
                             className='text-sm w-72 tracking-widest text-textGreen
                             text-center mt-4'
-                            href='mailto:affanzuhaibuddin@gmail.com'
+                            href='mailto:mohammed.affan.1024@gmail.com'
                             >
-                                <p>Feel.free.to@email.me</p>
+                                <p>connect@email.me</p>
                             </motion.a>
                         </motion.div>
                     </div>

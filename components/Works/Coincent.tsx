@@ -11,7 +11,7 @@ const Coincent = () => {
     > 
         <h3 className="flex gap-1 font-medium text-xl font-titleFont">
             AI Intern
-            <span className="text-textGreen tracking-wide">@Flipr Innovation Labs</span>
+            <span className="text-textGreen tracking-wide">@Coincentai</span>
         </h3>
         <p className="text-sm mt-1 font-medium text-textDark">
             Oct 2022 - Dec 2022
@@ -21,19 +21,19 @@ const Coincent = () => {
                 <span className="text-textGreen mt-1">
                     <TiArrowForward/>
                 </span>
-                Write modern, performant, maintainable code for a diverse array of client and internal projects
+                Engineered a convolutional neural network using TensorFlow to classify images of 10 fashion categories.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textGreen mt-1">
                     <TiArrowForward/>
                 </span>
-                Work with a variety of different languages, platforms, frameworks and content management systems such as JavaScript, TypeScript, React, Docker, AWS...etc
+                Utilized a range of diverse platforms, languages, and data science tools, such as TensorFlow, Scikit-Learn, Seaborn, and Keras.
             </li>
             <li className="text-base flex gap-2 text-textDark">
                 <span className="text-textGreen mt-1">
                     <TiArrowForward/>
                 </span>
-                Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis.
+                Enhanced a novel data augmentation technique that boosted accuracy by 12% and reduced overfitting on the training set by 30%.
             </li>
         </ul>
     </motion.div>
