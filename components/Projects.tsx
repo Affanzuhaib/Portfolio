@@ -1,7 +1,6 @@
 import SectionTitle from './SectionTitle'
 import Image from 'next/image'
-import { activity, displayRoom, gameplay, homePage } from '@/public/assets'
-import { AiOutlineYoutube } from 'react-icons/ai'
+import { activity, gameplay, homePage } from '@/public/assets'
 import { TbBrandGithub } from 'react-icons/tb'
 import {RxOpenInNewWindow} from "react-icons/rx"
 
