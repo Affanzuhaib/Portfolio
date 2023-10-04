@@ -10,7 +10,7 @@ const Banner = () => {
          animate={{y:0, opacity:1}}
          transition={{duration:0.5, delay:0.6}}
         className='text-lg font-titleFont tracking-wide text-textGreen'>
-        Hi, my name is
+        Hi, myself...
         </motion.h3>
         <motion.h1
             initial={{y:10, opacity:0}}
