@@ -16,17 +16,16 @@ const About = () => {
                 <p>
                 Hello! My name is Mohammed Affan Zuhaibuddin. I'm a passionate Fullstack Web Developer with excellent
                 <span className="text-textGreen">
-                {" "} C++, Python and Java {" "}
+                {" "} C++ and Python{" "}
                 </span>
-                skills as well as experience in Machine Learning. My stack consists of HTML, CSS, JavaScript, NodeJS, 
+                skills as well as experience in Machine Learning. My stack consists of HTML, CSS, JavaScript, NodeJS, MongoDB,
                 <span className="text-textGreen">
                 {" "} Reactjs {" "}
                 </span>
-                , MongoDB,
+                and
                 <span className="text-textGreen">
-                {" "} AWS {" "}
+                {" "} Google Cloud Platform. {" "} 
                 </span>
-                 , and Google Cloud Platform. 
                 </p>
                 <p>
                 I've contributed to real-world projects, 
@@ -69,11 +68,17 @@ const About = () => {
                         </span>
                         Expressjs
                     </li>
-                    <li className="flex items-center gap-2">
+                    {/* <li className="flex items-center gap-2">
                         <span className="text-textGreen">
                             <AiFillThunderbolt/>
                         </span>
                         AWS
+                    </li> */}
+                    <li className="flex items-center gap-2">
+                        <span className="text-textGreen">
+                            <AiFillThunderbolt/>
+                        </span>
+                        Google Cloud Platform
                     </li>
                     <li className="flex items-center gap-2">
                         <span className="text-textGreen">
@@ -93,17 +98,17 @@ const About = () => {
                         </span>
                         Nodejs
                     </li>
-                    <li className="flex items-center gap-2">
-                        <span className="text-textGreen">
-                            <AiFillThunderbolt/>
-                        </span>
-                        Google Cloud Platform
-                    </li>
-                    <li className="flex items-center gap-2">
+                    {/* <li className="flex items-center gap-2">
                         <span className="text-textGreen">
                             <AiFillThunderbolt/>
                         </span>
                         Java
+                    </li> */}
+                    <li className="flex items-center gap-2">
+                        <span className="text-textGreen">
+                            <AiFillThunderbolt/>
+                        </span>
+                        MongoDB
                     </li>
                     <li className="flex items-center gap-2">
                         <span className="text-textGreen">
@@ -115,7 +120,13 @@ const About = () => {
                         <span className="text-textGreen">
                             <AiFillThunderbolt/>
                         </span>
-                        MongoDB
+                        TailwindCSS
+                    </li>
+                    <li className="flex items-center gap-2">
+                        <span className="text-textGreen">
+                            <AiFillThunderbolt/>
+                        </span>
+                        Github / Git
                     </li>
                     <li className="flex items-center gap-2">
                         <span className="text-textGreen">
@@ -123,32 +134,18 @@ const About = () => {
                         </span>
                         Docker
                     </li>
-                    <li className="flex items-center gap-2">
-                        <span className="text-textGreen">
-                            <AiFillThunderbolt/>
-                        </span>
-                        TailwindCSS
-                    </li>
-                    <li className="flex items-center gap-2">
-                        <span className="text-textGreen">
-                            <AiFillThunderbolt/>
-                        </span>
-                        Github
-                    </li>
-                    <li className="flex items-center gap-2">
+                    {/* <li className="flex items-center gap-2">
                         <span className="text-textGreen">
                             <AiFillThunderbolt/>
                         </span>
                         Git
-                    </li>
-                    
-                    
-                    <li className="flex items-center gap-2">
+                    </li>                     */}
+                    {/* <li className="flex items-center gap-2">
                         <span className="text-textGreen">
                             <AiFillThunderbolt/>
-                        </span>
-                        Kubernetes
-                    </li>
+                            </span>
+                            Kubernetes
+                            </li> */}
                 </ul>
             </div>
             <div className="w-full lgl:w-1/3 h-80 relative group">
