@@ -3,25 +3,37 @@ import SectionTitle from './SectionTitle'
 import Flipr from './Works/Flipr'
 import Coincent from './Works/Coincent';
 import SmartInterviews from './Works/SmartInterviews';
+import Copart from './Works/Copart';
 
 const Experience = () => {
-    const [WorkSmart,setWorkSmart] = useState(true);
+    const [WorkCopart,setWorkCopart] = useState(true);
+    const [WorkSmart,setWorkSmart] = useState(false);
     const [WorkFlipr,setWorkFlipr] = useState(false);
     const [WorkCoincent,setWorkCoincent] = useState(false);
 
+    const handleCopart=()=>{
+        setWorkCopart(true);
+        setWorkSmart(false);
+        setWorkFlipr(false);
+        setWorkCoincent(false);
+    }
+
     const handleSmart=()=>{
+        setWorkCopart(false);
         setWorkSmart(true);
         setWorkFlipr(false);
         setWorkCoincent(false);
     }
 
     const handleFlipr=()=>{
+        setWorkCopart(false);
         setWorkSmart(false);
         setWorkFlipr(true);
         setWorkCoincent(false);
     };
 
     const handleCoincent=()=>{
+        setWorkCopart(false);
         setWorkSmart(false);
         setWorkFlipr(false);
         setWorkCoincent(true);
@@ -37,6 +49,13 @@ const Experience = () => {
         <SectionTitle title='Professional Background' titleNo='02'/>
         <div className='w-full mt-10 flex flex-col md:flex-row gap-16'>
             <ul className='md:w-32 flex flex-col '>
+                <li 
+                 onClick={handleCopart}
+                className={`${WorkCopart ? "border-l-textGreen text-textGreen" : "border-l-hoverColor text-textDark"
+                } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+                >
+                    Copart
+                </li>
                 <li 
                  onClick={handleSmart}
                 className={`${WorkSmart ? "border-l-textGreen text-textGreen" : "border-l-hoverColor text-textDark"
@@ -62,6 +81,7 @@ const Experience = () => {
             {WorkFlipr && <Flipr/>}
             {WorkCoincent && <Coincent/>}
             {WorkSmart && <SmartInterviews/>}
+            {WorkCopart && <Copart/>}
         </div>
     </section>
   )
